@@ -4011,3 +4011,14 @@ Section Heading Version 2
 .mb {
 	margin-bottom: 40px;
 }
+
+
+
+.service2-icon i {
+	font-size: 40px;
+	color: #0a1d31 !important;
+}
+
+.text-center {
+	text-align: center;
+}
