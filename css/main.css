@@ -1314,7 +1314,9 @@ input:focus {
 .service2-inner {
 	background: #066255;
 	margin-bottom: 25px;
-	display: inline-block;
+	display: flex;
+	min-height: 187px;
+
 	position: relative;
 	z-index: 3
 }

@@ -6,6 +6,13 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.service2-inner {
+		min-height: 224px !important;
+
+	}
+
+
 	.search-forum {
 		left: -200px;
 	}
@@ -166,6 +173,10 @@
 	.search-forum {
 		left: -240px;
 		top: 90px;
+	}
+
+	.service2-inner {
+		min-height: 192px;
 	}
 
 	.slider-text {
@@ -770,5 +781,12 @@
 
 	.commentar-sec img {
 		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.service2-inner {
+		min-height: auto !important;
 	}
 }
