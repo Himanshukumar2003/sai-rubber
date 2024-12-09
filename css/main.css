@@ -63,6 +63,7 @@ body {
 
 }
 
+
 a:focus {
 	outline: 0px solid;
 }
@@ -1811,6 +1812,12 @@ input:focus {
 	padding: 50px 40px;
 	background: #fafafa;
 }
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+
 
 /*
 13.Service Details Section
