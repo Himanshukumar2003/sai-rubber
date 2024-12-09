@@ -1386,6 +1386,7 @@ input:focus {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: hidden;
 }
 
 .consult-form::before {
