@@ -4033,3 +4033,53 @@ Section Heading Version 2
 .text-center {
 	text-align: center;
 }
+
+
+
+
+/* General Styling */
+
+
+
+#main-menu ul ul {
+	display: none;
+	position: absolute;
+	left: 10;
+	bottom: 5;
+	z-index: 1000;
+	padding: 10px;
+}
+
+#main-menu ul ul ul {
+	left: 100%;
+	/* Adjust for child menus */
+	top: 0;
+}
+
+#main-menu ul li:hover>ul {
+	display: block;
+	/* Show submenu on hover */
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+	#main-menu ul ul {
+		position: static;
+
+		padding-left: 20px;
+	}
+
+	#main-menu ul li {
+		position: static;
+	}
+
+	#main-menu ul ul {
+		display: none;
+		/* Keep hidden for mobile */
+	}
+
+	#main-menu ul li.active>ul {
+		display: block;
+		/* Show submenu when active class is added */
+	}
+}
