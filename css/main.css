@@ -4083,3 +4083,45 @@ Section Heading Version 2
 		/* Show submenu when active class is added */
 	}
 }
+
+
+.fotter-contact-section {
+
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	border-top: 1px solid #10385c;
+}
+
+
+.fotter-contact-section .inner-item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	gap: 10px
+}
+
+.fotter-contact-section .media {
+	width: 100%;
+}
+
+.fotter-contact-section .media-body {
+	width: 100%;
+	text-align: center;
+}
+
+.contact-dettiles {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+
+
+}
+
+.fotter-contact-section .icon i {
+	font-size: 30px;
+}

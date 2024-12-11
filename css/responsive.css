@@ -729,7 +729,7 @@
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 992px) {
 	.form-input-field {
 		margin-bottom: 20px;
 	}
@@ -788,5 +788,10 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 	.service2-inner {
 		min-height: auto !important;
+	}
+
+
+	.contact-dettiles {
+		flex-direction: column !important;
 	}
 }
